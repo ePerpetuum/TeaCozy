@@ -1,0 +1,126 @@
+body {
+  color: seashell;
+  font-family: helvetica;
+  font-size: 22px;
+  opacity: 0.9;
+  background-color: black;
+  text-align: center;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 69px;
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  z-index: 100;
+  background-color: black;
+  border-bottom: seashell solid 1px;
+}
+.logo img {
+  display: inline-block;
+  height: 50px;
+  padding-left: 10px;
+  object-position: left;
+  object-fit: contain;
+}
+
+a {
+  color: seashell;
+  text-decoration: underline;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+  line-height: 50px;
+  padding-right: 20px;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 1200px;
+  top: 70px;
+}
+
+h2, h4 {
+  margin: 10px;
+}
+
+.mission {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-image: url("Resources/Images/img-mission-background.jpg");
+  object-fit: fill;
+  height: 700px;
+  width: 1200px;
+  margin-bottom: 50px;
+}
+
+.banner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  height: 100px;
+  width: 1200px;
+}
+
+.item_boxes {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-height: 700px;
+  width: 1000px;
+  background-color: black;
+  margin-bottom: 50px;
+}
+
+.item_boxes p {
+  height: 200px;
+  width: 300px;
+  background-size: cover;
+  margin: 15px;
+}
+
+.item1 p {
+  background-image: url("Resources/Images/img-berryblitz.jpg");
+}
+
+.item2 p {
+  background-image: url("Resources/Images/img-spiced-rum.jpg");
+}
+.item3 p {
+  background-image: url("Resources/Images/img-donut.jpg");
+}
+.item4 p {
+  background-image: url("Resources/Images/img-myrtle-ave.jpg");
+}
+.item5 p {
+  background-image: url("Resources/Images/img-bedford-bizarre.jpg");
+}
+
+.location {
+  display: flex;
+  align-items: center;
+  background-image: url("Resources/Images/img-locations-background.jpg");
+  background-size: cover;
+  background-position: 0 -70px;
+  height: 500px;
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+footer {
+  font-size: 9;
+  text-align: left;
+}
