@@ -89,7 +89,11 @@ h2, h4 {
   height: 200px;
   width: 300px;
   background-size: cover;
+<<<<<<< HEAD
   margin: 10px 15px;
+=======
+  margin: 15px;
+>>>>>>> 76ea49acde082f72b22446b91208ff956b11ba58
 }
 
 .item1 p {
@@ -111,6 +115,7 @@ h2, h4 {
 
 .location {
   display: flex;
+<<<<<<< HEAD
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
@@ -134,6 +139,15 @@ h2, h4 {
   margin: 5px 20px;
   color: seashell;
   background-color: black;
+=======
+  align-items: center;
+  background-image: url("Resources/Images/img-locations-background.jpg");
+  background-size: cover;
+  background-position: 0 -70px;
+  height: 500px;
+  width: 100%;
+  margin-bottom: 50px;
+>>>>>>> 76ea49acde082f72b22446b91208ff956b11ba58
 }
 
 footer {
